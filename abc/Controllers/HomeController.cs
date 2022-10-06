@@ -11,6 +11,8 @@ namespace abc.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+
+            int x = 6;
         }
 
         public IActionResult Index()
